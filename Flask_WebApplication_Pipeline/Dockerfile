@@ -4,7 +4,7 @@ RUN yum -y update && \
     yum install python3-pip -y && \
     yum clean all 
 
-RUN pip install flask
+RUN pip3 install flask
 
 WORKDIR /webApp
 
