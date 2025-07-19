@@ -6,7 +6,7 @@ RUN yum upgrade -y && \
 
 WORKDIR /webApp
 
-COPY ./CI_CD_Automation/app.py /webApp
+COPY ./CI_CD_Automation/dev/app.py /webApp
 
 EXPOSE 5000
 
